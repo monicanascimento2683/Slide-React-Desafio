@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import styles from './style.css';
+import './style.css'
 
 const Slider = ({ images }) => {
   const [currentImage, setCurrentImage] = useState(0);
@@ -40,7 +40,7 @@ const Slider = ({ images }) => {
           {images.map((image, index) => (
             <span
               key={index}
-              className={currentImage === index ? styles.activeDot : styles.dot}
+              className={currentImage === index ? 'activeDot' : 'dot'}
               onClick={() => goToImage(index)}
             ></span>
           ))}

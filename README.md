@@ -14,9 +14,9 @@ hyperlink
 As imagens deve ser adicionadas no Slider através de um array de objetos contendo as informações:
 
 url
-<br>/
+<br/>
 alt
-<br>/
+<br/>
 link
 
 #### IMAGEM DE REFERÊNCIA
